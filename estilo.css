@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: blueviolet;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 180px;
+}
+
+ul {
+    font-weight: 500;
+}
+
+.box1 ul {
+    margin-left: 13px;
+}
+
+.box2 ul {
+    margin-left: 10px;
+}
+
+.box3 ul {
+    margin-left: -2px;
+}
+
+.box1 {
+    padding: 12px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 140px;
+    box-shadow: 0px 6px 14px -1px rgba(0, 0, 0, 0.15);
+
+}
+
+.hidratação {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box2 {
+    padding: 12px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 0px 6px 14px -1px rgba(0, 0, 0, 0.15);
+}
+
+.alimentação {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box3 {
+    padding: 12px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 80px;
+    box-shadow: 0px 6px 14px -1px rgba(0, 0, 0, 0.15);
+}
+
+.treino {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
